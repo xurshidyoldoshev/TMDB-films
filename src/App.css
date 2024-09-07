@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+.iframeGap {
+  margin-left: 160px;
+}
+
+.iframeGap > div > iframe {
+  width: 600px;
+  margin-bottom: 8px;
+}
